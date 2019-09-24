@@ -19,6 +19,12 @@ public class mutantController {
     mutantRepository repositorio;
         
     // Find
+    @GetMapping("/hellow")
+    public String hellow() {
+        return "Hellow";
+    } 
+
+    // Find
     @GetMapping("/allmutants")
     public List<Mutant> findAll() {
         return repositorio.findAll();

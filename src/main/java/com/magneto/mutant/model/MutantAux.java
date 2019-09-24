@@ -21,7 +21,11 @@ public class MutantAux {
     }
 
     public String getRawDna(){
-        return null;
+        StringBuilder builder = new StringBuilder();
+        for(String s : adn) {
+            builder.append(s);
+        }
+        return builder.toString();
     }
 
     public boolean isMutant() {

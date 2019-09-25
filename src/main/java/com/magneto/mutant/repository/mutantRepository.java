@@ -1,4 +1,3 @@
-//https://www.callicoder.com/spring-boot-rest-api-tutorial-with-mysql-jpa-hibernate/
 package com.magneto.mutant.repository;
 
 import java.util.List;
